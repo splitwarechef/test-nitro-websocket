@@ -14,5 +14,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>{{ status }} {{ data || 'No data recieved' }}</div>
+  <ClientOnly>
+    <div>{{ status }} {{ data || 'No data recieved' }}</div>
+  </ClientOnly>
 </template>

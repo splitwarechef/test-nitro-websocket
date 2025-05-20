@@ -11,9 +11,16 @@
   },
   "dependencies": {
     "@vueuse/core": "^13.2.0",
+    "consola": "^3.4.2",
     "nuxt": "^3.17.3"
   },
   "devDependencies": {
     "@vueuse/nuxt": "^13.2.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild"
+    ]
   }
 }
